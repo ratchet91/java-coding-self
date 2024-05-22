@@ -21,9 +21,9 @@ public class NextPermutation {
 		arr[index1] = arr[index2];
 		arr[index2] = temp;
 		int f = n - 1;
-		int index = index2;
+		int index = index1;
 
-		while (index < f) {
+		while (index + 1 < f) {
 			int temp1 = arr[index];
 			arr[index] = arr[f];
 			arr[f] = temp1;
