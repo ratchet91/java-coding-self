@@ -38,7 +38,7 @@ public class NextPermutation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = new int[] { 1, 2, 3, 5, 4 };
+		int[] arr = new int[] { 4, 0, 2, 6, 3, 1 };
 
 		getNextPermutation(arr);
 
