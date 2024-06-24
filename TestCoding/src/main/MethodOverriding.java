@@ -10,7 +10,7 @@ class A {
 	}
 }
 
-class B extends A {
+class B extends IntA {
 	public void method1() {
 		super.method2();
 		System.out.println("Hi Welcome to method1 of class B");
@@ -21,10 +21,10 @@ public class MethodOverriding {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		A a = new A();
+		IntA a = new IntA();
 		a.method1();
 
-		A a1 = new B();
+		IntA a1 = new B();
 		a1.method1();
 
 	}
